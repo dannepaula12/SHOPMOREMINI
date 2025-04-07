@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ShopMore Minimart</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <nav>
+    <div class="logo">ShopMore Minimart</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <img src="https://i.postimg.cc/ZY1p2Vt4/Home.png" alt="Home Icon" />
+  <h1>Welcome to ShopMore Minimart</h1>
+  <p>Your go-to place for everyday essentials and more!</p>
+</section>
+
+<!-- Mission Section -->
+<section id="mission">
+  <img src="https://i.postimg.cc/Dy6fLwcH/Mission.png" alt="Mission Icon" />
+  <h2>Our Mission</h2>
+  <p>To provide quality products at affordable prices with excellent customer service.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <img src="https://i.postimg.cc/8cBpypgF/Services.png" alt="Services Icon" />
+  <h2>Our Services</h2>
+  <ul>
+    <li>Groceries and essentials</li>
+    <li>Convenient store hours 6:00am to 10:00pm</li>
+    <li>Online ordering (Available and also free delivery)</li>
+  </ul>
+
+  <!-- Facebook Links -->
+  <div class="social-links">
+    <a href="https://www.facebook.com/share/1AXdjgR1S6/" target="_blank" class="btn btn-facebook">Visit our Facebook - Link 1</a>
+    <a href="https://www.facebook.com/share/1CGoPwRfwn/" target="_blank" class="btn btn-facebook">Visit our Facebook - Link 2</a>
+  </div>
+</section>
+
+<!-- Styles -->
+<style>
+  #services {
+    background-color: #f4f4f4;
+    /* Light background for the section */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+
+  .btn-facebook {
+    background-color: #4CAF50;
+    /* Complementary green color */
+    border: 2px solid #4CAF50;
+  }
+
+  .btn-facebook:hover {
+    background-color: #45a049;
+    /* Slightly darker green on hover */
+    border-color: #45a049;
+  }
+</style>
+
+<!-- Contact Section -->
+<section id="contact">
+  <img src="https://i.postimg.cc/5thfbYxY/Contact.png" alt="Contact Icon" />
+  <h2>Contact Us</h2>
+  <form id="contactForm" action="#" method="POST">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="formResponse" style="margin-top: 1rem; color: green;"></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 ShopMore Minimart. All rights reserved.</p>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
